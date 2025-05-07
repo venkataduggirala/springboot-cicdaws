@@ -12,9 +12,9 @@ public class GreetingsController {
         return "SpringBoot App is deployed on AWS EC2 Instance using CICD";
     }
 
-    @GetMapping("/health")
+    /*@GetMapping("/health")
     public String getHealth(){
         return "UP";
-    }
+    }*/
 
 }
